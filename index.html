@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+</head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Playball', serif;
+            color: cornsilk;
+             margin: 0px;
+             padding:0px;
+             background: url("img/girl-3253532_1280.webp");
+        }
+        .left{
+            display:inline-block;
+           
+             position: absolute;
+             left: 44px;
+             top: 20px;
+        }
+        .left img{
+            width: 52px;
+        }
+        .mid{
+            display: block;
+            width: 39%;
+            margin: 12px auto;
+        
+        }
+        .rigth{
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 20px;
+        
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display:inline-block;
+            font-size: 17px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 10px 5px;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+            color: gray;
+
+        }
+        .btn{
+            font-family: 'Playball', serif;
+            margin: 0px 9px;
+            background-color: black;
+            color:white;
+            padding: 4px 14px;
+        
+            cursor: pointer;
+        }
+        .btn :hover{
+            background-color: rgb(114, 61, 61);
+        }
+        .container{
+            
+             margin: 70px 62px;
+              padding: 46px;
+             width: 25%;
+         border-radius: 28px;
+        }
+        .form-group input{
+            text-align: center;
+              width: 70%;
+             padding: 6px;
+         margin: 6px auto;
+        border-radius: 8px;
+         font-size: 14px;
+        }
+    </style>
+<body>
+   <header class="header">
+       
+       <div class="left">
+          <img src="img/download.png" alt="">
+          <div>Fitness</div>
+       </div>
+       
+       <div class="mid">
+          <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">fitness calculator</a></li>
+            <li><a href="#">contact us</a></li>
+          </ul>
+
+       </div>
+
+       <div class="rigth">
+         <button class="btn">call us now</button>
+         <button class="btn">email us</button>
+       </div>
+   </header>
+       <div class="container">
+           <h1>Fill the gym form</h1>
+             <div class="form-group">
+                  <input type="text" name="" placeholder="Enter your name">
+             </div>
+             <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Address">
+           </div>
+           <div class="form-group">
+            <input type="text" name placeholder="Enter your phone no">
+       </div>
+
+       <div>
+          <button class="btn">submit</button>
+       </div>
+       </div>
+   </body>
+</html>
